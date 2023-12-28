@@ -1,0 +1,78 @@
+@charset "UTF-8"
+
+
+
+;*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 280px;
+    
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    padding-top: 50px;
+    
+    
+}
+
+header h1:hover{
+    text-decoration: underline;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+main section{
+    padding-bottom: 50px;
+    margin-left: 30px;
+}
+
+main p{
+    font-family: 'Sriracha', cursive;
+    font-size: 2em;
+    line-height: 2;
+}
+
+.branco{
+    background-color: white;
+}
+
+section#flor{
+    background: black url('../imagens/background001.jpg') right bottom no-repeat fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+section#flor > div{
+    width: 420px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding-top: ;
+    
+}
+
+#sec1{
+    padding-top: 100px;
+}
